@@ -12,6 +12,7 @@
 		5290916D1EEB1A5700F2D83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5290916B1EEB1A5700F2D83E /* Main.storyboard */; };
 		5290916F1EEB1A5700F2D83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5290916E1EEB1A5700F2D83E /* Assets.xcassets */; };
 		529091721EEB1A5700F2D83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529091701EEB1A5700F2D83E /* LaunchScreen.storyboard */; };
+		5290917A1EEB1D1000F2D83E /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529091791EEB1D1000F2D83E /* ImageProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5290916E1EEB1A5700F2D83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		529091711EEB1A5700F2D83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		529091731EEB1A5700F2D83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529091791EEB1D1000F2D83E /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				529091671EEB1A5700F2D83E /* AppDelegate.swift */,
 				529091691EEB1A5700F2D83E /* ViewController.swift */,
+				529091791EEB1D1000F2D83E /* ImageProcessor.swift */,
 				5290916B1EEB1A5700F2D83E /* Main.storyboard */,
 				5290916E1EEB1A5700F2D83E /* Assets.xcassets */,
 				529091701EEB1A5700F2D83E /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5290916A1EEB1A5700F2D83E /* ViewController.swift in Sources */,
+				5290917A1EEB1D1000F2D83E /* ImageProcessor.swift in Sources */,
 				529091681EEB1A5700F2D83E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BasicCoreML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianadvent.BasicCoreML;
@@ -282,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BasicCoreML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianadvent.BasicCoreML;
@@ -310,6 +316,7 @@
 				529091781EEB1A5700F2D83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
